@@ -1,0 +1,88 @@
+body{
+    margin-top: 20px;
+    font-family: Syne Mono;
+}
+
+h1{  
+    font-family: "Rubik Iso";
+    color:rgba(255, 255, 0, 0.881);
+    font-size: 34px;
+    margin-left: 40px;
+}
+
+h1, .navbar , .links, .links li{
+    display: inline-block;
+}
+
+#mario{
+    color:red;
+}
+
+#Hero{
+    color:blue;
+}
+
+.links a {
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.links a:hover{
+    cursor: grab;
+    color: rgb(250, 91, 33);
+    transition: 0.4s;
+}
+
+.card{
+    width: 49.5%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card img{
+    width: 700px;
+    margin: 0 0px 0 20px;
+}
+
+.card img:hover{
+    opacity: 0.5;
+}
+
+.card h3{
+    display: inline-block;
+    margin: 10px 0 20px 20px;
+    font-weight: 300;
+}
+
+.main-body{
+    padding: 40px 0 0 0;
+}
+
+#about{
+    margin: 30px 0 20px 50px;
+    width: 40%;
+}
+
+#about h4{
+    font-weight: 500;
+    font-size:28px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+#about p{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+footer, #contact, audio{
+    width: 40%;
+    margin: 50px 0 0 40px;
+}
+
+
+
+
